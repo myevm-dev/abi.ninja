@@ -14,7 +14,7 @@ export const MiniHeader = () => {
           <div className="flex items-center">
             <Image alt="Abi Ninja logo" src="/logo_inv.svg" width={50} height={50} />
             <span className="hidden sm:flex ml-2">
-              <strong>ABI</strong> <span>Ninja</span>
+              <strong>ABI</strong> <span>Wizard</span>
             </span>
           </div>
         </Link>
