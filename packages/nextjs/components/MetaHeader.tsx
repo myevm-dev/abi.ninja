@@ -19,7 +19,7 @@ const baseUrl = process.env.VERCEL_URL ? "https://abi.ninja" : `http://localhost
 export const MetaHeader = ({
   address,
   network,
-  title = "ABI Ninja",
+  title = "ABI Wizard",
   description = "Interact with smart contracts on any EVM chain",
   image = "thumbnail.png",
   twitterCard = "summary_large_image",
