@@ -1,6 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useRouter } from "next/router";
 import type { NextPage } from "next";
 import { Address, isAddress } from "viem";
@@ -187,7 +186,6 @@ const Home: NextPage = () => {
                     >
                       {isFetchingAbi ? <span className="loading loading-spinner"></span> : "Load contract"}
                     </button>
- 
                   </div>
                 ) : (
                   <div className="flex w-full flex-col items-center gap-3 p-6">
